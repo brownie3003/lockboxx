@@ -12,7 +12,7 @@ h1, h2, h3, h4 {
 
 .navbar-default {
     background-color: white;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .lockboxx-header {
@@ -60,6 +60,13 @@ h1, h2, h3, h4 {
     border-radius: 0px;
     margin-top: 5px;
 }
+
+.jumbotron input {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Sections */
 
 section {
     /* Allow scrollspy to work without fixed navbar getting in the way of top line*/
