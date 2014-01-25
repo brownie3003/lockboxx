@@ -1,0 +1,68 @@
+font-family: 'Raleway', sans-serif;
+
+body {
+    padding-top: 100px;
+}
+
+h1, h2, h3, h4 {
+    font-family: Raleway;
+}
+
+/* Navbar */
+
+.navbar-default {
+    background-color: white;
+    padding-top: 10px;
+}
+
+.lockboxx-header {
+    text-align: center;
+}
+
+.lockboxx-nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lockboxx-nav a {
+    padding: 10px;
+    color: #a5a5a5;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Raleway;
+}
+
+.lockboxx-nav a:hover {
+    color: #6A83F7;
+    text-decoration: none;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background: url(/img/porch_blur.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+    padding: 0px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.jumbotron h1 {
+    margin-top: 30%;
+}
+
+.jumbotron button {
+    border-radius: 0px;
+    margin-top: 5px;
+}
+
+section {
+    /* Allow scrollspy to work without fixed navbar getting in the way of top line*/
+    margin-top: -100px;
+    padding-top: 100px
+}
