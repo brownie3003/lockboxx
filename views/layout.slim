@@ -1,46 +1,45 @@
-doctype
-html
-	head
-		title Lockboxx
-		meta content="width=(device-width,)initial-scale=1.0" name="viewport"
-			/! Bootstrap
-			link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"
-			link href="/css/lockboxx.css" rel="stylesheet"
-			link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'
-				/! HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
-				/! WARNING: Respond.js doesn't work if you view the page via file://
-				/![if lt IE 9]
-					| <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-					| <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-	body
-		/! Static navbar
-		.navbar.navbar-default.navbar-fixed-top.lockboxx-header role="navigation"
-			button.navbar-toggle data-target=".navbar-collapse" data-toggle="collapse" type="button"
-	            span.sr-only Toggle navigation
-	            span.icon-bar
-	            span.icon-bar
-	            span.icon-bar
-			center
-				img src="/img/logo_orange.png"
-			.row
-				.col-sm-3
-				.col-sm-6
-					.navbar-collapse.collapse.lockboxx-nav
-          				a href="#home" Home
-						a href="#thebox" The Box
-						a href="#deliveries" Receiving Deliveries
-						a href="#security" Security
-						a href="#pricing" Pricing
-				.col-sm-3
-			/! /.nav-collapse
-		- if @error then
-			.alert.alert-error= @error
-		== yield
+doctype html
+head
+	title Lockboxx
+	meta content="width=(device-width,)initial-scale=1.0" name="viewport"
+		/! Bootstrap
+		link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+		link href="/css/lockboxx.css" rel="stylesheet"
+		link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'
+			/! HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+			/! WARNING: Respond.js doesn't work if you view the page via file://
+			/![if lt IE 9]
+				| <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+				| <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+body
+	/! Static navbar
+	.navbar.navbar-default.navbar-fixed-top.lockboxx-header role="navigation"
+		button.navbar-toggle data-target=".navbar-collapse" data-toggle="collapse" type="button"
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+		center
+			img src="/img/logo_orange.png"
+		.row
+			.col-sm-3
+			.col-sm-6
+				.navbar-collapse.collapse.lockboxx-nav
+      				a href="#home" Home
+					a href="#thebox" The Box
+					a href="#deliveries" Receiving Deliveries
+					a href="#security" Security
+					a href="#pricing" Pricing
+			.col-sm-3
+		/! /.nav-collapse
+	- if @error then
+		.alert.alert-error= @error
+	== yield
 
-		footer
-			p This is a footer
+	footer
+		p This is a footer
 
-		/! jQuery (necessary for Bootstrap's JavaScript plugins)
-		script src="/vendor/jquery-1.9.1.min.js"
-		/! Include all compiled plugins (below), or include individual files as needed
-		script src="/vendor/bootstrap/js/bootstrap.min.js"
+	/! jQuery (necessary for Bootstrap's JavaScript plugins)
+	script src="/vendor/jquery-1.9.1.min.js"
+	/! Include all compiled plugins (below), or include individual files as needed
+	script src="/vendor/bootstrap/js/bootstrap.min.js"
