@@ -1,9 +1,5 @@
 font-family: 'Raleway', sans-serif;
 
-body {
-    padding-top: 100px;
-}
-
 h1, h2, h3, h4 {
     font-family: Raleway;
 }
@@ -17,6 +13,10 @@ h1, h2, h3, h4 {
 
 .lockboxx-header {
     text-align: center;
+}
+
+.lockbox-header img {
+    max-width: 80%;
 }
 
 .lockboxx-nav {
@@ -46,14 +46,14 @@ h1, h2, h3, h4 {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    min-height: 600px;
-    padding: 0px;
     color: white;
     margin-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 10%;
 }
 
 .jumbotron h1 {
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .jumbotron button {
