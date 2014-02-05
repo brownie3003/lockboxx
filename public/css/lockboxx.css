@@ -81,4 +81,9 @@ section .row {
 
 .dark {
     background-color: #e1e2e3;
+    color: white;
+}
+
+section h4 {
+    text-align: justify;
 }
