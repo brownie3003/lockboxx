@@ -72,7 +72,11 @@ section {
     /* Allow scrollspy to work without fixed navbar getting in the way of top line*/
     margin-top: -100px;
     padding-top: 100px;
-    text-align: center;
+}
+
+section img {
+    display: block;
+    margin: auto;
 }
 
 section .row {
@@ -80,10 +84,29 @@ section .row {
 }
 
 .dark {
-    background-color: #e1e2e3;
+    background-color: darkgray;
     color: white;
 }
 
-section h4 {
+section .col-sm-6, .col-sm-4 {
+    /* Allows vertical centering for bootstrap columns */
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+section h1 {
+    font-family: Raleway;
+    margin-bottom: 40px;
+}
+
+section h3 {
+    font-family: Raleway;
+    color: #6b6b6b;
+    line-height: 120%;
     text-align: justify;
+}
+
+section#features h1 {
+    text-align: center;
 }
