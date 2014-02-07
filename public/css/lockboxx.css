@@ -71,16 +71,13 @@ h1, h2, h3, h4 {
 section {
     /* Allow scrollspy to work without fixed navbar getting in the way of top line*/
     margin-top: -100px;
+    padding: 20px;
     padding-top: 100px;
 }
 
 section img {
     display: block;
     margin: auto;
-}
-
-section .row {
-    padding: 20px;
 }
 
 .dark {
@@ -98,15 +95,21 @@ section .col-sm-6, .col-sm-4 {
 section h1 {
     font-family: Raleway;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 section h3 {
     font-family: Raleway;
     color: #6b6b6b;
     line-height: 120%;
-    text-align: justify;
 }
 
-section#features h1 {
-    text-align: center;
+section#how h1 {
+    text-align: left;
+}
+
+section#features h3 {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
 }
