@@ -81,8 +81,7 @@ section img {
 }
 
 .dark {
-    background-color: darkgray;
-    color: white;
+    background-color: #efefef;
 }
 
 section .col-sm-6, .col-sm-4 {
