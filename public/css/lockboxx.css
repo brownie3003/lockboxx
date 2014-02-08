@@ -81,8 +81,7 @@ section img {
 }
 
 .phones {
-    height: 500px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .dark {
