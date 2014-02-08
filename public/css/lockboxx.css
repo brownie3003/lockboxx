@@ -84,6 +84,11 @@ section img {
     width: 100%;
 }
 
+.phone {
+    height: 500px;
+    max-width: 100%;
+}
+
 .dark {
     background-color: #efefef;
 }
