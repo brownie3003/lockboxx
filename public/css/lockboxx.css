@@ -80,6 +80,11 @@ section img {
     margin: auto;
 }
 
+.phones {
+    height: 500px;
+    max-width: 100%;
+}
+
 .dark {
     background-color: #efefef;
 }
