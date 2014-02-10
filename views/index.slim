@@ -2,24 +2,32 @@
     .row
         .col-sm-3
         .col-sm-6
-            center
-                h1 Never miss a delivery again, ever.
-                p Enter your email to receive updates and be the first to access early bird kickstarter prices
-                / .form-inline role="form"
-                /     .formgroup
-                /         input.form-controll type="email" placeholder="Email"
-                /     button.btn.btn-lg.btn-success type="submit" Join
-                javascript:
-                	var submitted = false;
-                iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thanks.html';}"
+        	.hero
+	            center
+	                h1 Never miss a delivery again, ever.
+	                p A smart bluetooth connected delivery box that can be securely accessed by delivery drivers.
+	                p Want to know more?
+	                / .form-inline role="form"
+	                /     .formgroup
+	                /         input.form-controll type="email" placeholder="Email"
+	                /     button.btn.btn-lg.btn-success type="submit" Join
+	                javascript:
+	                	var submitted = false;
+	                iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thanks.html';}"
 
-                form action="https://docs.google.com/forms/d/1L2EgLCya5JHMs_vuli0NoA2XdNYYt9fS9dme8X7u3pE/formResponse" method="POST" onsubmit="sumbmitted=true;" target="redirect" placeholder="Email Address"
-					input#entry_1115691828 aria-label="Email Address  Must be a valid email address" aria-required="true" dir="auto" name="entry.1115691828" required="" title="Must be a valid email address" type="email" value="" placeholder="Email Address"
-					input name="draftResponse" type="hidden" value="[,,&quot;-877797748770051525&quot;]\r\n"
-					input name="pageHistory" type="hidden" value="0"
-					input name="fromEmail" type="hidden" value="false"
-					input name="fbzx" type="hidden" value="-877797748770051525"
-					input name="submit" type="submit" value="Submit"
+	                form action="https://docs.google.com/forms/d/1L2EgLCya5JHMs_vuli0NoA2XdNYYt9fS9dme8X7u3pE/formResponse" method="POST" onsubmit="sumbmitted=true;" target="redirect" placeholder="Email Address"
+						input#entry_1115691828 aria-label="Email Address  Must be a valid email address" aria-required="true" dir="auto" name="entry.1115691828" required="" title="Must be a valid email address" type="email" value="" placeholder="Email Address"
+						input name="draftResponse" type="hidden" value="[,,&quot;-877797748770051525&quot;]\r\n"
+						input name="pageHistory" type="hidden" value="0"
+						input name="fromEmail" type="hidden" value="false"
+						input name="fbzx" type="hidden" value="-877797748770051525"
+						input name="submit" type="submit" value="Submit"
+
+					p Help us out by sharing this page with friends
+					a.twitter-share-button data-count="none" data-hashtags="iHateMissingDeliveries" data-size="large" data-text="The solution to missed deliveries" data-url="http://www.lockboxx.co" data-via="lock_boxx" href="https://twitter.com/share"
+					javascript:
+						!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
 
 section#how
     .row
@@ -80,6 +88,13 @@ section#pricing
             h3 Lockboxx is currently in the prototyping stage. We will be launching a kickstarter campaign in the Spring
             h3 We plan to charge £80 for the kickstarter with a retail price estimated to be £120.
             h3 Register your interest below to be the first to hear about the kickstarter launch.
+            form action="https://docs.google.com/forms/d/1L2EgLCya5JHMs_vuli0NoA2XdNYYt9fS9dme8X7u3pE/formResponse" method="POST" onsubmit="sumbmitted=true;" target="redirect" placeholder="Email Address"
+					input#entry_1115691828 aria-label="Email Address  Must be a valid email address" aria-required="true" dir="auto" name="entry.1115691828" required="" title="Must be a valid email address" type="email" value="" placeholder="Email Address"
+					input name="draftResponse" type="hidden" value="[,,&quot;-877797748770051525&quot;]\r\n"
+					input name="pageHistory" type="hidden" value="0"
+					input name="fromEmail" type="hidden" value="false"
+					input name="fbzx" type="hidden" value="-877797748770051525"
+					input name="submit" type="submit" value="Submit"
         
 
 section#faq
@@ -90,20 +105,39 @@ section#faq
                 .panel.panel-default
                     .panel-heading
                         h4.panel-title
-                            a data-toggle="collapse" data-parent="#accordion" href="#FAQ1" Question 1 FAQ
+                            a data-toggle="collapse" data-parent="#accordion" href="#FAQ1" How big is Lockboxx?
                     .panel-collapse.collapse#FAQ1
                         .panel-body
-                            | Some random answer to the question
+                            p We've designed Lockboxx to fit most of the packages that we receive day to day. Of course it's not going to fit a living room suite or a fridge freezer. The dimensions of Lockboxx are 70cm x 40cm x 40cm (27.5" x 15.7" x 15.7"). Or for those without a tape measure to hand it will fit small kitchen appliances like a blender, electronics like new games consoles or iPads, clothing or shoes.
                 .panel.panel-default
                     .panel-heading
                         h4.panel-title
-                            a data-toggle="collapse" data-parent="#accordion" href="#FAQ2" Question 2 FAQ
+                            a data-toggle="collapse" data-parent="#accordion" href="#FAQ2" How is Lockboxx secured against theft?
                     .panel-collapse.collapse#FAQ2
                         .panel-body
-                            | Some random answer to the question
-
-
-    ul
-        li Specifically its dimensions are 70cm x 40cm x 40cm (27.5" x 15.7" x 15.7"). Or for those without a tape 
-
+                            p Lockboxx is supplied with screws that can be used to secure it to your property. We understand that not everyone wants to do DIY, so we've provide a hoop to secure it to your property using a bicycle lock or similar.
+                            p Lockboxx itself will have alarms. These will protect against anyone attempting to force the lock open or physically remove Lockboxx.
+                .panel.panel-default
+                    .panel-heading
+                        h4.panel-title
+                            a data-toggle="collapse" data-parent="#accordion" href="#FAQ4" What if I have multiple deliveries?
+                    .panel-collapse.collapse#FAQ4
+                        .panel-body
+                            p Not a problem. You can issue up to 20 single use keypad codes at any one time. We may change this in future if we find people need more codes.
+                .panel.panel-default
+                    .panel-heading
+                        h4.panel-title
+                            a data-toggle="collapse" data-parent="#accordion" href="#FAQ3" Why are you doing a Kickstarter?
+                    .panel-collapse.collapse#FAQ3
+                        .panel-body
+                            p Very recently hardware prototyping has advanced and made it possible for us to make a Lockboxx prototype. However steel boxes, the kind we are using, are expensive to manufacture. We not only need to buy these steel boxes in bulk, we also need change the factory tooling in order to add all of the electornics required to give bluetooth access and generate random keypad codes.
+                / .panel.panel-default
+                /     .panel-heading
+                /         h4.panel-title
+                /             a data-toggle="collapse" data-parent="#accordion" href="#FAQ5" Have you got a prototype?
+                /     .panel-collapse.collapse#FAQ5
+                /         .panel-body
+                /             p Yes we do! We've been working for 6 months to get to this point. We realised at the beginning of 2014 that we were very close to completing our protoype and we needed to focus on selling our product otherwise there would be no way we could realise production of it.
+                /             p We have uploaded one of our very early demos of a prototype and you can view it here:
+                /             	a href="/" Early Prototype Demo
 

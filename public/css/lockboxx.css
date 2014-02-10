@@ -48,12 +48,12 @@ h1, h2, h3, h4 {
     width: 100%;
     color: white;
     margin-bottom: 10px;
-    padding-top: 60px;
-    padding-bottom: 10%;
 }
 
-.jumbotron h1 {
-    margin-top: 20%;
+.hero {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin-top: 100px;
 }
 
 .jumbotron button {
@@ -65,6 +65,7 @@ h1, h2, h3, h4 {
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 /* Sections */
@@ -121,4 +122,14 @@ section#features h3 {
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 30px;
+}
+
+footer {
+    width: 100%;
+    /*Do not change the height as it's part of the sticky footer*/
+    height: 80px;
+    background-color: whitesmoke;
+    border-top: 1px solid lightgrey;
+    padding-top: 10px;
+    margin-top: 20px;
 }

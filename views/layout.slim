@@ -12,6 +12,7 @@ head
 				| <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 				| <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 body
+
 	/! Static navbar
 	.navbar.navbar-default.navbar-fixed-top.lockboxx-header role="navigation"
 		button.navbar-toggle data-target=".navbar-collapse" data-toggle="collapse" type="button"
@@ -37,7 +38,17 @@ body
 	== yield
 
 	footer
-		p This is a footer
+		.container
+			.row
+				.col-sm-9	
+					ul
+						li Contact
+				.col-sm-3
+					a.twitter-follow-button data-show-count="false" data-size="large" href="https://twitter.com/lock_boxx"
+					javascript:
+						!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+					br
+					small copyright Lockboxx 2013
 
 	/! jQuery (necessary for Bootstrap's JavaScript plugins)
 	script src="/vendor/jquery-1.9.1.min.js"
