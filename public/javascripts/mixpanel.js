@@ -27,4 +27,9 @@ $(document).ready(function() {
 		mixpanel.track("Email submission")
 	});
 
+	// Twitter share
+	$(".twitter-share-button").click(function() {
+		mixpanel.track("Twitter share");
+	})
+
 });
