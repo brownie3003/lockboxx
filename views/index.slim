@@ -1,28 +1,9 @@
-.jumbotron#home
-    .row
-        .col-sm-3
-        .col-sm-6
-        	.hero
-	            center
-	                h1 Never miss a delivery again, ever.
-	                p A smart bluetooth connected delivery box that can be securely accessed by delivery drivers.
-	                p Want to know more?
-	                / .form-inline role="form"
-	                /     .formgroup
-	                /         input.form-controll type="email" placeholder="Email"
-	                /     button.btn.btn-lg.btn-success type="submit" Join
-	                .row
-                        .col-sm-6.col-sm-offset-3
-                            == slim :form
-
-					span Help us out by sharing this page with friends
-                    br
-					a.twitter-share-button data-count="none" data-hashtags="iHateMissingDeliveries" data-size="large" data-text="The solution to missed deliveries" data-url="http://www.lockboxx.co" data-via="lock_boxx" href="https://twitter.com/share"
-					javascript:
-						!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
 
 section#how
+    h1 style="text-align: center;" Never miss a delivery again
+    h3 style="text-align: center; padding-right: 20%; padding-left: 20%;" 
+        | Lockboxx is the mail box of the future. It's a secure mail box with technology that allows only the people you authorize access to safely deliver your parcels. 
     .row
         .col-sm-6.col-sm-offset-1
             img.phones src="/img/lockbox_iphone.png"
@@ -84,6 +65,28 @@ section#pricing
             span Register your interest below to be the first to hear about the kickstarter launch.
             == slim :form
         
+.jumbotron#home
+    .row
+        .col-sm-3
+        .col-sm-6
+        	.hero
+	            center
+	                h1 Never miss a delivery again, ever.
+	                p A smart bluetooth connected delivery box that can be securely accessed by delivery drivers.
+	                p Want to know more?
+	                / .form-inline role="form"
+	                /     .formgroup
+	                /         input.form-controll type="email" placeholder="Email"
+	                /     button.btn.btn-lg.btn-success type="submit" Join
+	                .row
+                        .col-sm-6.col-sm-offset-3
+                            == slim :form
+
+					span Help us out by sharing this page with friends
+                    br
+					a.twitter-share-button data-count="none" data-hashtags="iHateMissingDeliveries" data-size="large" data-text="The solution to missed deliveries" data-url="http://www.lockboxx.co" data-via="lock_boxx" href="https://twitter.com/share"
+					javascript:
+						!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
 section#faq
     h1 FAQ
